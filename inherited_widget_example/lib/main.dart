@@ -79,7 +79,7 @@ class ColorState extends InheritedWidget {
 
     /// expensive method
     // return context.ancestorWidgetOfExactType(targetType); => deprecated
-    // return context.findAncestorWidgetOfExactType<ColorState>();
+    return context.findAncestorWidgetOfExactType<ColorState>();
   }
 }
 
